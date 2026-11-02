@@ -277,9 +277,7 @@ modules.forEach((m,mi)=>{
       allowfullscreen>
     </iframe>
   </div>
-  <div class="video-label">${restricted?'Este vídeo pode ter restrições definidas pelo criador.':'Vídeo incorporado do YouTube'}</div>
   <button class="complete" type="button">MARCAR COMO CONCLUÍDA</button>
-  <a class="video-locked" href="https://www.youtube.com/watch?v=${videoId}" target="_blank" rel="noopener">ABRIR DIRETAMENTE NO YOUTUBE ↗</a>
   `;
   const complete=card.querySelector('.complete');
   complete.addEventListener('click',()=>{
